@@ -15,6 +15,6 @@ for i in range(number_of_elements):
 print(list)
 # write the program that only prints numbers in a list that are divisbile by 5
 for i in list:
-    if i % 5 == 0:
+    if int(i) % 5 == 0:
         print(i)
 
